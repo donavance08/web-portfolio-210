@@ -1,0 +1,98 @@
+*{
+	padding: 0px;
+	margin:  0px;
+		background-color:  black;
+}
+
+#name-top-corner {
+	font-size: 2rem !important;
+	font-family: 'Tienne', serif;
+	color: #df00fe;
+}
+
+#landing-header {
+	font-size:  5rem;
+	font-family: 'Poiret One', cursive;
+}
+
+
+#landing-page-container{
+		max-height: 50vh;
+}
+
+#landing-image {
+	max-height: 90%;
+	max-width: 	100%;
+}
+
+#landing-page {
+	background-color:  black;
+	margin-bottom: -10px;
+}
+
+#know-better-button{
+		background-color: #5221e6 !important;
+		border: none;
+		font-family: 'Cabin', sans-serif;
+		letter-spacing: 0.2rem;
+}
+
+#projects-section {
+	background-color:  black;
+}
+#projects-header{
+	font-family: 'Cabin', sans-serif !important;
+	font-size: 3rem !important;
+}
+
+#about-us-section{
+	background-color:  black;
+	margin-bottom: -1px;
+}
+
+input	{
+	background-color: #181823 !important;
+}
+
+textarea{
+		background-color: #181823 !important;
+}
+
+#helloone{
+			background-color:black;
+}
+
+#submitButton{
+	background-color: #5221e6;
+	min-height: 15%;
+	font-family: 'Cabin', sans-serif;
+}
+
+.card {
+		background-color:  black !important;
+}
+#nameone{
+	color: orange !important;
+}
+
+#about-me-label{
+	font-size: 3rem;
+}
+
+#about-container {
+	border-radius: 75px !important;
+}
+
+#personal-photo {
+	border: 2px solid #20d43b !important;
+}
+
+
+.card{
+	background-color:  black;
+}
+
+.form-control{
+	border: none !important;
+}
+
