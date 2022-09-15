@@ -1,23 +1,46 @@
 *{
 	padding: 0px;
 	margin:  0px;
-		background-color:  black;
+
 }
 
+header {
+		background-color:  black;
+}
 #name-top-corner {
 	font-size: 2rem !important;
 	font-family: 'Tienne', serif;
-	color: #df00fe;
 }
 
 #landing-header {
-	font-size:  5rem;
+	font-size:  3rem;
 	font-family: 'Poiret One', cursive;
+		background-color:  black;
+}
+
+#contact-nav3
+	background-color: 	#5221e6;
+
+}
+
+.navbar{
+	margin-bottom: -1px;
+}
+
+section{
+	margin:  -2px 0px;
 }
 
 
 #landing-page-container{
 		max-height: 50vh;
+
+}
+
+#landing-page-section {
+	margin-bottom: -1px;
+	padding-bottom:  200px;
+		background-color:  black;
 }
 
 #landing-image {
@@ -39,15 +62,35 @@
 
 #projects-section {
 	background-color:  black;
+	margin-top:  -1px;
 }
 #projects-header{
 	font-family: 'Cabin', sans-serif !important;
 	font-size: 3rem !important;
+	font
+}
+
+#front-end-project-button{
+	background-color: #5221e6;
+	border: none;
+	width: 40%;
+}
+
+#cardTwo{
+	height: 100%;
+}
+
+#cardThree{
+		height: 100%;
 }
 
 #about-us-section{
 	background-color:  black;
 	margin-bottom: -1px;
+}
+
+#about-me-label{
+	font-family: 'Cabin', sans-serif !important;
 }
 
 input	{
@@ -56,6 +99,23 @@ input	{
 
 textarea{
 		background-color: #181823 !important;
+}
+
+h1 {
+		font-family: 'Poiret One', cursive;
+}
+
+html	{
+		scroll-behavior: smooth;
+}
+
+a{
+	color: 	white !important	;
+}
+
+p {
+	font-family: 'Cabin', sans-serif !important;
+	letter-spacing: 0.1rem ;
 }
 
 #helloone{
@@ -87,6 +147,20 @@ textarea{
 	border: 2px solid #20d43b !important;
 }
 
+#contacts-section {
+	margin-bottom: -100px;
+		background-color:  black;
+}
+
+.modal-header{
+	border:  none !important;
+	font-family: 'Poiret One', cursive;
+}
+
+.modal-footer {
+	border:  none !important;
+}
+
 
 .card{
 	background-color:  black;
@@ -95,4 +169,20 @@ textarea{
 .form-control{
 	border: none !important;
 }
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
 
