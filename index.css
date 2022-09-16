@@ -68,7 +68,7 @@ section{
 #projects-header{
 	font-family: 'Cabin', sans-serif !important;
 	font-size: 3rem !important;
-	font
+	letter-spacing: 0.2em;
 }
 
 #front-end-project-button{
@@ -151,8 +151,8 @@ p {
 }
 
 #contacts-section {
-	margin-bottom: -100px;
-		background-color:  black;
+	margin-bottom: -10px;
+	background-color:  black;
 }
 
 .modal-header{
@@ -191,6 +191,11 @@ p {
 
 .fa:hover {
   opacity: 0.7;
+}
+
+footer{
+	background-color: black;
+	margin-top:  -20px;
 }
 
 
