@@ -124,8 +124,10 @@ p {
 
 #submitButton{
 	background-color: #5221e6;
-	min-height: 15%;
+	height: 100px;
 	font-family: 'Cabin', sans-serif;
+	color: white;
+	letter-spacing: 0.3em;
 }
 
 .card {
@@ -168,6 +170,11 @@ p {
 
 .form-control{
 	border: none !important;
+}
+
+
+#form-parent{
+	max-height:  100% !important;
 }
 
 
