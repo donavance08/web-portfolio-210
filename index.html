@@ -6,10 +6,9 @@
 	<title>Adonis Avance | Portfolio</title>
 
 	<!-- Icon -->
-	<link rel="icon" type="image/x-icon"href="https://freeicons.io/spring-icon-set-17/growing-leaf-plant-seed-hand-icon-660530"> 
+	<link rel="icon" type="image/x-icon" href="./images/icons/title.png"> 
 
-	<!-- CSS -->
-	<link rel="stylesheet" href="./index.css">
+	
 
 	<!-- AOS CSS -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,30 +23,32 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- CSS -->
+	<link rel="stylesheet" href="./index.css">
 
 	
 </head>
 <body>
 	<!-- Header Section -->
 	<header>
-		<nav class="navbar navbar-expand-lg p-0 px-2 container-fluid text-light navbar-dark	">
-			<a id="name-top-corner" class="navbar-brand nav-item pl-2" href="#landing-page-section">Adonis.A</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg py-0 pb-1 container-fluid text-light navbar-dark fixed-top">
+			<a id="name-top-corner" class="navbar-brand nav-item pl-2" href="#landing-page-section">#Adonis.A</a>
+			<button class="navbar-toggler mt-2 mb-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse pr-2" id="navbarNav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#landing-page-section">Home</a>
+				<ul class="navbar-nav ml-auto " >
+					<li class="nav-item active " id="navbar-home">
+						<a class="nav-link pl-2"  href="#landing-page-section" >Home</a>
+					</li>
+					<li class="nav-item" id="navbar-aboutMe">
+						<a class="nav-link pl-2" href="#about-us-section">About me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#about-us-section">About me</a>
+						<a class="nav-link pl-2" href="#projects-section">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projects-section">Projects</a>
-					</li>
-					<li id="contact-nav" class="nav-item">
-						<a class="nav-link" href="#contacts-section">Contacts</a>
+						<a class="nav-link pl-2" href="#contacts-section">Contacts</a>
 					</li>
 				</ul>
 			</div>
@@ -56,25 +57,26 @@
 
 	<!-- Landing Page Section -->
 	<section id="landing-page-section">
-		<div class="d-flex justify-content-center min-vh-100 text-light pt-3 m-0 container-fluid text-center text-lg-left" >
+		<div class="d-flex justify-content-center text-light container-fluid text-center text-lg-left" >
 			<div id="landing-page-container" class="row col-10 d-flex justify-content-center align-items-center" >
 				<div class="col-12 col-lg-5 pr-0 " data-aos="fade-right">
-					<div  data-aos="fade-right"
-     data-aos-offset="800"
-     data-aos-easing="ease-in-sine"> 
+					<div data-aos="fade-right"
+				     	data-aos-offset="800"
+				     	data-aos-easing="ease-in-sine"> 
 						<img class="img-fluid" src="https://www.dbrl.org/wp-content/uploads/2020/11/big-tree-3-scaled.jpg" id="landing-image">
 					</div>
 					
 				</div>
 				<div class="d-flex flex-column col-12 col-lg-6 pl-0 pl-lg-3 " >
 					<h1 id="landing-header" class="pt-5">
-						I'm Adonis. An aspiring Software Developer 
+						I'm Adonis. A Software Developer
 					</h1>
 					<p class="pt-2 pb-4">
 						I have a passion for learning and the pursuit of knowledge.
 					</p>
-
-					<a id="know-better-button" class="btn btn-primary btn-lg" href="#about-us-section" role="button">I'd like to know you better</a>
+					<div class="d-flex justify-content-center">
+						<a id="know-better-button" class="btn btn-primary btn-lg d-block" href="#about-us-section" role="button">Who am I?</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -86,15 +88,15 @@
 		<div id="about" class=" text-light justify-content-center pt-5 m-0 " data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="1500">
+     	<h2 id="about-me-header" class="pt-4 mb-3 d-flex justify-content-center">
+     		About Me
+     	</h2>
 			<div id="about-container" class="border border-primary row col-10 offset-1"	>
 
 				<div class="col-12 col-lg-6 p-5 order-2 order-lg-1 ">
-					<h2 id="about-me-label" class="pt-4">
-						About Me
-					</h2>
-					
+
 					<p>
-						I am a career shifter, who decided a year ago to steer my professional career path to computer programming. I have experience as a technical support representative, that helped me harness my problem solving skills, punctuality, and ability to work with a team. In addition to that, I had worked as a seafarer for the past 5 years, prior to my decision of switching to a software development career. My natural enthusiasm about technology, and computers in general, paired with my passion for learning and self-imporovement, will be the greatest qualities I will employ to gain the knowledge and develop the skills I will need to succeed in this goal. 
+						I am a career shifter, who decided a year ago to steer my professional career path and pursue <span class="span-highlight"> Web Development</span>. I have extensive experience, as a technical support representative, that helped me harness my problem solving skills, punctuality, and ability to work with a team. In addition to that, I had worked as a seafarer for the past 5 years, prior to my decision of switching to a software development career. My natural enthusiasm about technology, and computers in general, paired with my passion for learning and self-imporovement, will be the greatest qualities I will employ to gain the knowledge and develop the skills I will need to succeed in this <span class="span-highlight">Goal </span>. 
 					</p>
 
 				</div>
@@ -250,5 +252,29 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+	<script>
+			$(document).ready(function () {
+
+				$('ul.navbar-nav > li').click(function (e) {
+					$('ul.navbar-nav > li')
+						.removeClass('active');
+					$(this).addClass('active');
+				});
+
+				$('#name-top-corner')
+					.click(function (a) {
+						$('ul.navbar-nav > li')
+						.removeClass('active');
+						$('#navbar-home').addClass('active');
+				});
+
+				$('#know-better-button').click(e => {
+					$('ul.navbar-nav > li')
+						.removeClass('active');
+					$('#navbar-aboutMe').addClass('active');
+				})
+			});
+	</script>
 </body>
 </html>
