@@ -5,12 +5,33 @@
 
 }
 
+html	{
+		scroll-behavior: smooth;
+}
+
 section{
 	margin:  -2px 0px;
 }
 
+h1 {
+		font-family: 'Poiret One', cursive;
+}
 
-/* || Navbar */
+a{
+	color: 	white !important	;
+}
+
+p {
+	font-family: 'Cabin', sans-serif !important;
+	letter-spacing: 0.1rem ;
+}
+
+.section-header{
+	font-family: 'Cabin', sans-serif !important;
+	font-size: 3rem;
+}
+
+/* || Header Section */
 
 .nav-link:hover, .nav-link:focus, .nav-link:active{
 	background-color: #5221e6;
@@ -28,7 +49,7 @@ section{
 }
 
 
-/* || Landing Page */
+/* || Landing Page Section */
 
 #landing-header {
 	font-size:  3rem;
@@ -61,71 +82,52 @@ section{
 		letter-spacing: 0.2rem;
 }
 
-.span-highlight{
-	color: #5221e6;
+/* || About me Section */
+
+#about-container {
+	border-radius: 75px !important;
 }
 
-/* || Projects */
+.span-highlight{
+	color: #5221e6;
+	font-size: 1.2em;
+}
+
+/* || Projects Section*/
 
 #projects-section {
 	margin-top:  -1px;
 }
 
-#projects-header{
-	font-family: 'Cabin', sans-serif !important;
-	font-size: 3rem;
+.card{
+	background-color:  black;
 }
 
-#front-end-project-button{
+.card-subtitle{
+	color: orange !important;
+}
+
+.visit-page-button{
 	background-color: #5221e6;
 	border: none;
 	width: 40%;
 }
 
-#cardTwo{
-	height: 100%;
+.card-img{
+	height: 60%;
 }
 
-#cardThree{
-		height: 100%;
+/* || Contact Section */
+
+#contacts-section {
+	margin-bottom: -10px;
 }
 
-#about-us-section{
-	background-color:  black;
-	margin-bottom: -1px;
-}
-
-#about-me-header{
-	font-family: 'Cabin', sans-serif !important;
-	font-size: 3rem;
-}
-
-input	{
+input, textarea{
 	background-color: #181823 !important;
 }
 
-textarea{
-		background-color: #181823 !important;
-}
-
-h1 {
-		font-family: 'Poiret One', cursive;
-}
-
-html	{
-		scroll-behavior: smooth;
-}
-
-a{
-	color: 	white !important	;
-}
-
-p {
-	font-family: 'Cabin', sans-serif !important;
-	letter-spacing: 0.1rem ;
-}
-
-#helloone{
+#jumbotron-contact{
 			background-color:black;
 }
 
@@ -135,26 +137,15 @@ p {
 	font-family: 'Cabin', sans-serif;
 	color: white;
 	letter-spacing: 0.3em;
+	border: none;
 }
 
-.card {
-		background-color:  black !important;
-}
-#nameone{
-	color: orange !important;
+.form-control{
+	border: none !important;
 }
 
-#about-container {
-	border-radius: 75px !important;
-}
-
-#personal-photo {
-	border: 2px solid #20d43b !important;
-}
-
-#contacts-section {
-	margin-bottom: -10px;
-	background-color:  black;
+#form-parent{
+	max-height:  100% !important;
 }
 
 .modal-header{
@@ -166,21 +157,18 @@ p {
 	border:  none !important;
 }
 
-
-.card{
-	background-color:  black;
+.modal-dialog{
+	border: white 1px solid;
 }
 
-.form-control{
-	border: none !important;
+.close, .close-btn{
+ color: white;
 }
 
-
-#form-parent{
-	max-height:  100% !important;
+.close-btn{
+	background-color: #5221e6 !important;
+	border: none;
 }
-
-
 
 .fa {
   padding: 20px;
