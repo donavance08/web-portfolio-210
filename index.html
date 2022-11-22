@@ -91,17 +91,20 @@
      	<h2 class="section-header pt-4 mb-3 d-flex justify-content-center">
      		About Me
      	</h2>
-			<div id="about-container" class="border border-primary row col-10 offset-1"	>
+			<div id="container-about-me" class="border border-primary row col-10 offset-1"	>
 
-				<div class="col-12 col-lg-6 p-5 order-2 order-lg-1 ">
+				<div class="col-12 col-lg-6 p-3 p-lg-5 order-2 order-lg-1 ">
 
 					<p>
 						I am a career shifter, who decided a year ago to steer my professional career path and pursue <span class="span-highlight"> Web Development</span>. I have extensive experience, as a technical support representative, that helped me harness my problem solving skills, punctuality, and ability to work with a team. In addition to that, I had worked as a seafarer for the past 5 years, prior to my decision of switching to a software development career. My natural enthusiasm about technology, and computers in general, paired with my passion for learning and self-improvement, will be the greatest qualities I will employ, to gain the knowledge and develop the skills I will need to succeed in this <span class="span-highlight">Goal</span>. I recently graduated as a Web developer from <span class="span-highlight">Zuitt Coding Bootcamp</span>, and am now focused on creating projects, to practice my skills, while looking for a company that would be willing to invest in my abilities, and to further my growth. 
 					</p>
 
 				</div>
-				<div class="col-12 col-lg-6 p-5 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-					<img id="personal-photo" class="rounded-circle" src="https://i.imgur.com/y9gHNCo.jpg" title="source: imgur.com" >
+				<div id="container-personal-photo" class="col-12 col-lg-6 p-3 p-lg-5 order-1 order-lg-2 d-flex justify-content-center align-items-center">
+					<div class="d-flex justify-content-center">
+						<img id="personal-photo" class="rounded-circle" src="https://i.imgur.com/y9gHNCo.jpg">
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -110,61 +113,81 @@
 	<!-- Projects Section -->
 	<section id="projects-section" class="container-fluid min-vh-100 text-light text-center pt-5 m-0" >
 		<h2 class="section-header mb-3">Projects</h2>
-		<div class="row mx-5">
-			<div class="col-12 col-lg-4 py-5 d-flex">
-				<div id="cardOne" class="card justify-content-center align-items-center mx-2 border border-primary  pb-3 p-2">
+		<div class="d-flex flex-column flex-lg-row mx-md-3 mx-lg-4 mx-xl-5 ">
+			<div class="card-container py-5 col-lg-4 px-0">
+				<div class="card d-flex justify-content-center mx-2 mt-1 border border-primary pb-3 px-1 ">
+					<div class="container-card-contents">
+						<div class="card-img mt-1">	
+								<img class="card-img-top" src="https://i.imgur.com/3SaTMWR.jpg" alt="Project Image">
+						</div>
+						<div class="container-card-description d-flex flex-column flex-lg-row">
+							<div class="d-flex flex-column">
+								<h5 class="card-title my-3">Front-End Project</h5>
+								<h5 class="card-subtitle mb-4">Web Developer Portfolio</h5>
+								<p class="mb-0">
+									A personal portfolio as one of my very first project using HTML5, CSS and Bootstrap CSS
+								</p>
+								<div class="mt-auto mb-0">
+									<a class="btn btn-primary visit-page-button" href="https://donavance08.github.io/web-portfolio-210/ " role="button">Visit Page</a>	
+								</div>	
+							</div>
+						</div>
 
-					<div class="card-img">	
-							<img class="card-img-top" src="https://i.imgur.com/3SaTMWR.jpg" alt="Project Image">
+
 					</div>
-
-					<h5 class="card-title my-3">Front-End Project</h5>
-					<h5 class="card-subtitle mb-4">Web Developer Portfolio</h5>
-					<p>
-						A personal portfolio as one of my very first project using HTML5, CSS and Bootstrap CSS
-					</p>
-					<a class="btn btn-primary visit-page-button " href="https://donavance08.github.io/web-portfolio-210/ " role="button">Visit Page</a>		
+	
 				</div>
 			</div>
 
-			<div class="col-lg-4 py-5 d-flex">
-				<div id="cardOne" class="card justify-content-center align-items-center mx-2 border border-primary rounded pb-3 p-2">
-
-					<div class="card-img">
-						<img class="card-img-top" src="https://d33wubrfki0l68.cloudfront.net/ee5af837fdabb4d29b35d25748c0072d1816c255/3f3a0/public/assets/images/jxavz9h.png" alt="Project Image">
-					</div>
-
-					<h5 class="card-title mt-3">Back-End Project</h5>
-					<h5 class="card-subtitle mb-4">E-Commerce API</h5>
-					<p>
-						Backend API for an e-commerce website using Javascript, expressJS and mongoose to process requests for a mongoDB server.
-					</p>
-					<a class="btn btn-primary visit-page-button " href="https://github.com/donavance08/e-commerce-API" role="button">Visit Page</a>					
+			<div class="card-container py-5 col-lg-4 px-0">
+				<div class="card d-flex justify-content-center mx-2 mt-1 border border-primary pb-3 px-1 ">
+					<div class="container-card-contents">
+						<div class="card-img mt-1">	
+							<img class="card-img-top" src="https://d33wubrfki0l68.cloudfront.net/ee5af837fdabb4d29b35d25748c0072d1816c255/3f3a0/public/assets/images/jxavz9h.png" alt="Project Image">
+						</div>
+						<div class="container-card-description d-flex flex-column flex-lg-row">
+							<div class="d-flex flex-column">
+								<h5 class="card-title mt-3">Back-End Project</h5>
+								<h5 class="card-subtitle mb-4">E-Commerce API</h5>
+								<p class="mb-0">
+									Backend API for an e-commerce website using Javascript, expressJS and mongoose to process requests for a mongoDB server.
+								</p>
+								<div class="mt-auto mb-0">
+									<a class="btn btn-primary visit-page-button " href="https://github.com/donavance08/e-commerce-API" role="button">Visit Page</a>	
+								</div>	
+							</div>
+						</div>
+					</div>				
 				</div>
 			</div>
 
-
-			<div class="col-12 col-lg-4 py-5 d-flex">
-				<div id="cardOne" class="card justify-content-center align-items-center mx-2 border border-primary rounded pb-3 p-2">
-					<div class="card-img">	
-						<img class="card-img-top " src="https://i.imgur.com/UQmiwzC.jpg" title="source: imgur.com" alt="Project Image">
+			<div class="card-container py-5 col-lg-4 px-0">
+				<div class="card d-flex justify-content-center mx-2 mt-1 border border-primary pb-3 px-1 ">
+					<div class="container-card-contents">
+						<div class="card-img mt-1">		
+							<img class="card-img-top " src="https://i.imgur.com/UQmiwzC.jpg" title="source: imgur.com" alt="Project Image">
+						</div>
+						<div class="container-card-description d-flex flex-column flex-lg-row">
+							<div class="d-flex flex-column">
+								<h5 class="card-title mt-3">Full-Stack Project</h5>
+								<h5 class="card-subtitle mb-4">E-Commerce Website</h5>
+								<p class="mb-0">
+									E-commerce web app for selling gym equipments using MERN stack
+								</p>
+								<div class="mt-auto mb-0">
+									<a class="btn btn-primary visit-page-button" href="https://fitstop.vercel.app/" role="button">Visit Page</a>	
+								</div>	
+							</div>	
+						</div>					
 					</div>
-					
-					<h5 class="card-title mt-3">Full-Stack Project</h5>
-					<h5 class="card-subtitle mb-4">E-Commerce Website</h5>
-					<p>
-						E-commerce web app for selling gym equipments using MERN stack
-					</p>
-					<a class="btn btn-primary visit-page-button" href="https://fitstop.vercel.app/" role="button">Visit Page</a>						
 				</div>
 			</div>
-
 		</div>
 	</section>
 
 	<!-- Contact me Section -->
 
-	<section id="contacts-section" class="min-vh-80 text-light py-5">
+	<section id="contacts-section" class="min-vh-100 text-light py-4">
 		<div class="container-fluid">
 			<h2 class="section-header pt-4 mb-3 d-flex justify-content-center">
 				Contact
@@ -181,6 +204,10 @@
 
 				<div class="d-flex col-10 col-lg-6 justify-content-center container-fluid">
 					<form id="form-parent" action="https://formsubmit.co/exzodiac@yahoo.com" method="POST">
+						<input type="hidden" 
+								name="_next" 
+								value="https://donavance08.github.io/web-portfolio-210/Pages/sentMsg">
+
 						<div class="form-row">
 							<div class="form-group col-md-6">
 								<label for="firstName">First Name</label>
@@ -234,7 +261,7 @@
 						</div>
 					</form>
 
-					<div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<!-- <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -255,28 +282,28 @@
 							</div>
 						</div>
 					</div>
-
+ -->
 				</div>
 			</div>
 			<div class="col">
+					<div class="d-flex justify-content-center mt-3 mt-md-0">
+						<div class="footer-bottom row align-items-center">
+							<div class="footer-social">
+								<a href="https://web.facebook.com/adonis.avance" class="fa fa-facebook"></a>
+								<a href="https://www.linkedin.com/in/adonis-avance-a25b79248/" class="fa fa-linkedin"></a>
+								<a href="https://github.com/donavance08" class="fa fa-github"></a>
+								<a href="https://twitter.com/Never_ever_Had" class="fa fa-twitter"></a>
 
+							</div>
+						</div>
+
+					</div>
 			</div>
 		</div>
 	</section>
 
 	<footer>
-	<div class="d-flex justify-content-center mt-3 mt-md-0">
-		<div class="footer-bottom row align-items-center">
-			<div class="footer-social">
-				<a href="https://web.facebook.com/adonis.avance" class="fa fa-facebook"></a>
-				<a href="https://www.linkedin.com/in/adonis-avance-a25b79248/" class="fa fa-linkedin"></a>
-				<a href="https://github.com/donavance08" class="fa fa-github"></a>
-				<a href="https://twitter.com/Never_ever_Had" class="fa fa-twitter"></a>
 
-			</div>
-		</div>
-
-	</div>
 	</footer>
 
 	<!-- Footer Section -->
@@ -299,14 +326,13 @@
 	<script>
 			$(document).ready(function () {
 
-				$('ul.navbar-nav > li').click(e => {
+				$('ul.navbar-nav > li').click(function(e) {
 					$('ul.navbar-nav > li')
 						.removeClass('active');
 					$(this).addClass('active');
 				});
 
-				$('#name-top-corner')
-					.click(e => {
+				$('#name-top-corner').click(e => {
 						$('ul.navbar-nav > li')
 						.removeClass('active');
 						$('#navbar-home').addClass('active');

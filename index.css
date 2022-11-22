@@ -10,7 +10,7 @@ html	{
 }
 
 section{
-	margin:  -2px 0px;
+	margin: -2px 0px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 }
 
 a{
-	color: 	white !important	;
+	color: 	white;
 }
 
 p {
@@ -31,6 +31,7 @@ p {
 	font-size: 3rem;
 }
 
+
 /* || Header Section */
 
 .nav-link:hover, .nav-link:focus, .nav-link:active{
@@ -39,8 +40,8 @@ p {
 }
 
 .navbar-nav>.active>a {
-			background-color: #5221e6;
-			color: green;
+	background-color: #5221e6;
+	color: green;
 }
 
 .navbar{
@@ -58,7 +59,7 @@ p {
 }
 
 #landing-page-container{
-		max-height: 100vh;
+	max-height: 100vh;
 }
 
 #landing-page-section {
@@ -84,13 +85,28 @@ p {
 
 /* || About me Section */
 
-#about-container {
+#container-about-me{
 	border-radius: 75px !important;
 }
 
 .span-highlight{
 	color: #5221e6;
 	font-size: 1.2em;
+}
+
+#about, #container-about-me > div, #container-personal-photo{
+	background-color: transparent;
+}
+
+#container-personal-photo > div{
+	width: 100%;
+}
+
+#personal-photo{
+	width: 100%;
+	max-height: 425px;
+	max-width: 425px;
+
 }
 
 /* || Projects Section*/
@@ -100,7 +116,11 @@ p {
 }
 
 .card{
-	background-color:  black;
+	background-color:  transparent;
+}
+
+.container-card-contents{
+	height: 100%;
 }
 
 .card-subtitle{
@@ -113,8 +133,24 @@ p {
 	width: 40%;
 }
 
+.card{
+	height: 100%;
+}
+
+.card-container {
+	min-height: 430px;
+}
 .card-img{
-	height: 60%;
+	height: 40%;
+}
+
+.card-img-top{
+	height: 100%;
+}
+
+.container-card-description{
+	min-height: 60%;
+	width: 100%;
 }
 
 /* || Contact Section */
@@ -128,7 +164,7 @@ input, textarea{
 }
 
 #jumbotron-contact{
-			background-color:black;
+	background-color: transparent;
 }
 
 #submitButton{
@@ -148,39 +184,15 @@ input, textarea{
 	max-height:  100% !important;
 }
 
-.modal-header{
-	border:  none !important;
-	font-family: 'Poiret One', cursive;
-}
-
-.modal-footer {
-	border:  none !important;
-}
-
-.modal-dialog{
-	border: white 1px solid;
-}
-
-.close, .close-btn{
- color: white;
-}
-
-.close-btn{
-	background-color: #5221e6 !important;
-	border: none;
-}
-
-.fa {
+.fa{
   padding: 20px;
   font-size: 50px;
   width: 50px;
-  text-align: center;
-  text-decoration: none;
 }
-
 
 .fa:hover {
   opacity: 0.7;
+  text-decoration: none;
 }
 
 footer{
@@ -188,4 +200,10 @@ footer{
 	margin-top:  -50px;
 }
 
+
+/* || Thank you section */
+#back-to-home{
+	text-decoration: underline	;
+	color: #5221e6 ;
+}
 
