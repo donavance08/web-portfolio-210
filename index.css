@@ -2,11 +2,11 @@
 	padding: 0px;
 	margin:  0px;
 	background-color:  black;
-
+	
 }
 
 html	{
-		scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 section{
@@ -14,7 +14,7 @@ section{
 }
 
 h1 {
-		font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', cursive;
 }
 
 a{
@@ -33,11 +33,6 @@ p {
 
 
 /* || Header Section */
-
-.nav-link:hover, .nav-link:focus, .nav-link:active{
-	background-color: #5221e6;
-	color: black;
-}
 
 .navbar-nav>.active>a {
 	background-color: #5221e6;
@@ -64,7 +59,7 @@ p {
 
 #landing-page-section {
 	margin-bottom: -1px;
-
+	
 }
 
 #landing-image {
@@ -77,10 +72,10 @@ p {
 }
 
 #know-better-button{
-		background-color: #5221e6 !important;
-		border: none;
-		font-family: 'Cabin', sans-serif;
-		letter-spacing: 0.2rem;
+	background-color: #5221e6 !important;
+	border: none;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 0.2rem;
 }
 
 /* || About me Section */
@@ -109,8 +104,8 @@ p {
 }
 
 #personal-photo-cover{
-		background-color: #000;
-		opacity: 0.8;
+	background-color: #000;
+	opacity: 0.8;
 }
 
 /* || Projects Section*/
@@ -189,14 +184,14 @@ input, textarea{
 }
 
 .fa{
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
+	padding: 20px;
+	font-size: 50px;
+	width: 50px;
 }
 
 .fa:hover {
-  opacity: 0.7;
-  text-decoration: none;
+	opacity: 0.7;
+	text-decoration: none;
 }
 
 footer{
